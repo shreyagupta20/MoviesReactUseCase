@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Dashboard from './Dashboard';
 
-[  
+const movies= [
     {  
        "movie_title":"Avatar ",
        "director_name":"James Cameron",
@@ -58,6 +58,8 @@ import Dashboard from './Dashboard';
        "plot_keywords":"deception|imprisonment|lawlessness|police officer|terrorist plot",
        "movie_imdb_link":"http://www.imdb.com/title/tt1345836/?ref_=fn_tt_tt_1"
     },
+
+]
 
 export default class App extends Component {
     render () {

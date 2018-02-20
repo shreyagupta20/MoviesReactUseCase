@@ -10,13 +10,13 @@ module.exports = {
     module: {
         loaders: [{
             test: /\.(js|jsx)$/,
-                exclude: /node_modules/,
-                loader: 'babel-loader'
-            },
-            {
-                test: /\.less$/,
-                loaders: ["style-loader", "css-loder", "less-loader"]
-            }
+            exclude: /node_modules/,
+            loader: 'babel-loader'
+        },
+        {
+            test: /\.less$/,
+            loaders: ['style-loader', 'css-loder', 'less-loader']
+        }
         ]
     },
     output: {
@@ -27,7 +27,7 @@ module.exports = {
         contentBase: parentDir,
         historyApiFallback: true
     }
-}
+};
 
 // var webpack = require('webpack');
 // var path = require('path');
